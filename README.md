@@ -1,3 +1,3 @@
 #readme
 
-{% include "git+https://dCremins@github.com/dCremins/jekyllstyleguide.git/README.md" %}
+{% include "git+https://github.com/dCremins/jekyllstyleguide.git/README.md" %}
