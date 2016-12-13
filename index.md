@@ -1,4 +1,4 @@
 # ITRE Generic Theme
-stuuf stuuf stuff stuff stuff
+stuff stuff stuff stuff stuff
 
 ## Colors
