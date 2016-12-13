@@ -1,3 +1,3 @@
 #readme
 
-{% include "git+https://github.ncsu.edu/drcremin/Generic.git/README.md" %}
+{% include "git+https://drcremin@github.ncsu.edu/drcremin/Generic.git/README.md" %}
