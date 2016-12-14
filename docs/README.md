@@ -2,4 +2,4 @@
 
 {% include "git+https://github.com/dCremins/test.git/README.md" %}
 
-{{book.ncsu}}
+{{% include "git+https://"+{{book.ncsu}}+":"+{{book.key}}+"@github.ncsu.edu/drcremin/Generic.git/README.md" %}}
