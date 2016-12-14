@@ -1,3 +1,3 @@
 #readme
 
-{% include book.git-ncsu+"/test.git/README.md" %}
+{% include book.git+"/test.git/README.md" %}
