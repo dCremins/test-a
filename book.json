@@ -1,8 +1,8 @@
 {
   "root": "./docs",
   "variables": {
-    "git": "\"git+https://",
+    "git": "git+https://",
     "ncsu": "drcremin:039e525746aa4cffd3f06388fbee33694a1dbe16@github.ncsu.edu/drcremin",
-    "generic": "/Generic.git/README.md\""
+    "generic": "/Generic.git/README.md"
   }
 }
