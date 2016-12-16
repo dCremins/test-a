@@ -1,0 +1,9 @@
+{% macro color(swatches) %}
+<div class="component">
+<div class="swatch">{% for swatch in swatches %}
+<div class="color {{swatch.name}}" style="background-color: #{{swatch.hex}}">
+<p>#{{swatch.hex}}</p>
+</div>{% endfor %}
+</div>
+</div>
+{% endmacro %}

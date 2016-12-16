@@ -1,0 +1,12 @@
+{
+  "name": "test-a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/dCremins/test-a.git",
+  "author": "Devin Cremins <drcremin@ncsu.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "gitbook-cli": "^2.3.0",
+    "global": "^4.3.1"
+  }
+}

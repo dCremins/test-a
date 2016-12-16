@@ -1,0 +1,17 @@
+.swatch {
+  display: flex;
+
+  .color {
+    align-items: flex-end;
+    color: $white;
+    display: flex;
+    height: 190px;
+    margin: 0 15px;
+    text-align: center;
+    width: 70px;
+
+    p {
+      width: 100%;
+    }
+  }
+}

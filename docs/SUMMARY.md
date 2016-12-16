@@ -1,8 +1,8 @@
 #Summary
 
-### ITRE Brand
+### ITRE Documentation
 
-* [ITRE Brand](readme.md)
+* [Brand](brand/index.md)
 * [Themes](themes/index.md)
   * [Generic](themes/generic.md)
   * [Poulton Child](themes/poulton.md)

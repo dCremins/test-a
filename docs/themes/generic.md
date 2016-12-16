@@ -1,1 +1,1 @@
-{% include book.git-ncsu+"/Generic.git/README.md" %}
+{% include book.ncsu+"/Generic.git/README.md" %}
