@@ -6,7 +6,13 @@
   "author": "Devin Cremins <drcremin@ncsu.edu>",
   "license": "MIT",
   "dependencies": {
+    "browser-sync": "^2.18.5",
+    "gitbook": "^3.2.2",
     "gitbook-cli": "^2.3.0",
-    "global": "^4.3.1"
+    "gulp": "^3.9.1",
+    "gulp-gitbook": "^0.0.1",
+    "gulp-nunjucks-render": "^2.0.0",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1"
   }
 }

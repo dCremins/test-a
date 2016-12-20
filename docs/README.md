@@ -1,4 +1,4 @@
-![ITRE Logo](/assets/img/itre-logo.png)
+![ITRE Logo](./images/itre-logo.png)
 #ITRE Documentation
 The Institute for Transportation Research and Education (ITRE) is an institutional center located at NC State University.
 

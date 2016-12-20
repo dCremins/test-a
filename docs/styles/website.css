@@ -3,23 +3,19 @@
   border: 1px solid #eee;
   border-radius: 5px;
   color: #eee;
-  padding: 20px 30px 45px;
-}
+  padding: 20px 30px 45px; }
 
 .swatch {
-  display: flex;
-}
+  display: flex; }
+  .swatch .color {
+    align-items: flex-end;
+    color: #fff;
+    display: flex;
+    height: 190px;
+    margin: 0 15px;
+    text-align: center;
+    width: 90px; }
+    .swatch .color p {
+      width: 100%; }
 
-.swatch .color {
-  align-items: flex-end;
-  color: #fff;
-  display: flex;
-  height: 190px;
-  margin: 0 10px;
-  text-align: center;
-  width: 70px;
-}
-
-.swatch .color p {
-  width: 100%;
-}
+/*# sourceMappingURL=../styles/maps/website.css.map */
