@@ -1,0 +1,36 @@
+.type {
+  display: flex;
+  flex-flow: row wrap;
+
+  .font {
+    color: $dark-grey;
+    display: flex;
+    flex: 1 30%;
+    flex-flow: column;
+    justify-content: center;
+    padding: 15px;
+
+    h3 {
+      font-size: 6em;
+      font-weight: normal;
+      line-height: 85px;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .sample {
+    flex: 2 60%;
+  }
+}
+
+.futura {
+  font-family: Futura;
+}
+
+.garamond {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+}

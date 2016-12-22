@@ -1,0 +1,31 @@
+.alert-callout {
+  border-left: 3px solid $grey;
+  margin: 20px 0;
+  padding: 20px;
+
+  h4,
+  p {
+    margin: 0;
+  }
+}
+
+@mixin alert($type, $amount: 40%) {
+  background-color: lighten($type, $amount);
+  border-color: $type;
+
+  h4 {
+    color: $type;
+  }
+}
+
+.warning {
+  @include alert($warn);
+}
+
+.info {
+  @include alert($info, 37%);
+}
+
+.notice {
+  @include alert($notice, 35%);
+}

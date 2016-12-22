@@ -1,0 +1,13 @@
+{% macro images(urls) %}
+<div class="component">
+<div class="images">{% for url in urls %}
+<div class="display">
+<img src="{{readme.path}}/images/{{url.file}}" alt="{{url.alt}}" />
+</div>
+<div class="link">
+<p>{{url.alt}}</p>
+<p><a href="{{readme.path}}/images/{{url.file}}" target="_blank" alt="download link">Download</a></p>
+</div>{% endfor %}
+</div>
+</div>
+{% endmacro %}
