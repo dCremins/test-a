@@ -4,5 +4,9 @@
   "variables": {
     "git": "git+https://github.com/dCremins",
     "ncsu": "git+https://drcremin:039e525746aa4cffd3f06388fbee33694a1dbe16@github.ncsu.edu/drcremin"
+  },
+  "plugins": [ "page-toc" ],
+  "pluginsConfig": {
+    "selector": [".markdown-section h2", ".markdown-section h3", ".markdown-section h4"]
   }
 }

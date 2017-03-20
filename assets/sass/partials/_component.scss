@@ -2,5 +2,10 @@
   background-color: $light-grey;
   border-radius: 5px;
   color: $dark-grey;
-  padding: 20px 30px 45px;
+  padding: 20px 25px 30px;
+}
+
+.flexbox {
+  display: flex;
+  flex-flow: row wrap;
 }

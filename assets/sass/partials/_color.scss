@@ -6,12 +6,23 @@
     color: $white;
     display: flex;
     height: 190px;
-    margin: 0 15px;
+    margin: 0 10px;
     text-align: center;
-    width: 90px;
+    width: 95px;
 
     p {
       width: 100%;
     }
+  }
+}
+
+.scheme {
+  flex: 1;
+  margin: 6px;
+  padding: 0 0 15px;
+
+  p {
+    margin: 5px 0;
+    padding: 0 15px;
   }
 }

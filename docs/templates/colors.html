@@ -7,3 +7,18 @@
 </div>
 </div>
 {% endmacro %}
+
+{% macro scheme(schemes) %}
+<div class="component">
+<div class="flexbox">{% for scheme in schemes %}
+<div class="scheme">
+<p><strong>{{scheme.title}}</strong></p>
+<div class="swatch">{% for swatch in scheme.colors %}
+<div class="color {{swatch.name}}" style="background-color: #{{swatch.hex}}">
+<p>#{{swatch.hex}}</p>
+</div>{% endfor %}
+</div>
+</div>{% endfor %}
+</div>
+</div>
+{% endmacro %}
